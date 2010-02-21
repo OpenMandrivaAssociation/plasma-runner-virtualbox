@@ -1,6 +1,6 @@
 
 Summary:        Virtualbox KDE runner
-Name:           virtualbox-kde-runner
+Name:           plasma-runner-virtualbox
 Version:        0.2 
 Release:        %mkrel 1
 Source:         http://kde-apps.org/CONTENT/content-files/107926-vbox-runner-%{version}.tar.gz
@@ -10,6 +10,7 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL:            http://kde-apps.org/content/show.php/VBox+Runner?content=107926
 BuildRequires:  kdelibs4-devel                                     
 Requires:	virtualbox
+Obsoletes:           virtualbox-kde-runner
 
 %description
 Allows you to start your VirtualBox virtual machines from Krunner (the Alt-F2 thing)
