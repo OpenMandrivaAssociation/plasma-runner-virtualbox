@@ -38,3 +38,18 @@ rm -rf %{buildroot}
 rm -rf $RPM_BUILD_ROOT
 
 
+
+
+%changelog
+* Tue Dec 07 2010 Oden Eriksson <oeriksson@mandriva.com> 0.2-2mdv2011.0
++ Revision: 614587
+- the mass rebuild of 2010.1 packages
+
+  + Luis Daniel Lucio Quiroz <dlucio@mandriva.org>
+    - New name
+    - New name
+
+* Sat Feb 20 2010 Luis Daniel Lucio Quiroz <dlucio@mandriva.org> 0.2-1mdv2010.1
++ Revision: 508842
+- import virtualbox-kde-runner
+
