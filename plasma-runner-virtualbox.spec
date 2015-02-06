@@ -2,7 +2,7 @@
 Summary:        Virtualbox KDE runner
 Name:           plasma-runner-virtualbox
 Version:        0.2 
-Release:        3
+Release:        4
 Source:         http://kde-apps.org/CONTENT/content-files/107926-vbox-runner-%{version}.tar.gz
 License:        GPLv2+                                         
 Group:          Graphical desktop/KDE                          
