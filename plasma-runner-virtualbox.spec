@@ -6,6 +6,7 @@ Source:         http://kde-apps.org/CONTENT/content-files/107926-vbox-runner-%{v
 License:        GPLv2+                                         
 Group:          Graphical desktop/KDE                          
 URL:            https://kde-apps.org/content/show.php/VBox+Runner?content=107926
+BuildRequires:	make
 BuildRequires:  kdelibs4-devel                                     
 Requires:	virtualbox
 Obsoletes:           virtualbox-kde-runner
